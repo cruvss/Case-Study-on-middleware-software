@@ -1,0 +1,27 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage[top=1in,bottom=1in,left=1.5in,right=1in,headheight=0.5in,headsep=0.5in]{geometry}
+\usepackage[utf8]{inputenc}                      
+\usepackage{graphicx}                              
+\usepackage{times}   
+\usepackage{caption}                              
+\usepackage{subcaption}                            
+\usepackage{cite}                                
+\usepackage{float}                                
+
+
+\begin{document}
+\include{Contents/coverpage}
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+\include{Contents/CORBA}
+\include{Contents/Mach}
+\include{Contents/Jini}
+\include{Contents/TIB_Rendezvous}
+
+
+
+% \bibliographystyle{unsrt}  
+% \bibliography{ref}
+\end{document}
